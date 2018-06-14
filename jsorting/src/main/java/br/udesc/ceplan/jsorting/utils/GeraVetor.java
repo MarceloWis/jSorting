@@ -47,9 +47,9 @@ public class GeraVetor {
         ArrayList<Integer> list = new ArrayList<>();
 
         // Para manter o aleatório "controlado", defino um seed ao instanciá-lo
-        Random gerador = new Random(n * 10);
+        Random gerador = new Random(n * 10000);
         for (int i = 0; i < n; i++) {
-            list.add(gerador.nextInt(n * 10));
+            list.add(gerador.nextInt(n * 10000));
         }
 
         // Converte ArrayList de Integer para um vetor de inteiros
