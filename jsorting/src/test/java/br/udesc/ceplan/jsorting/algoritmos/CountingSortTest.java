@@ -13,11 +13,11 @@ public class CountingSortTest {
     * @author Marcelo Wischniowski <marcelowisc at gmail.com>
     */
    @Test
-   public void HeapSortTest() {
+   public void CountingSortTest() {
        GeraVetor geraVetor = new GeraVetor();
 
        // Crio um novo vetor
-       int[] vetor = geraVetor.random(10);
+       int[] vetor = geraVetor.random(100);
 
        // Faço uma cópia dele
        int[] experado = Arrays.copyOf(vetor, vetor.length);
